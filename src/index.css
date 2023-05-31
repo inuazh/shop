@@ -128,6 +128,13 @@ main .add-to-cart{
     color: white;
     border-radius: 50%;
     cursor: pointer;
+    font-weight: 600;
+    
+}
+
+main .add-to-cart:hover{
+    transform: scale(1.5) translateY(-5px);
+    transition: transform 0.5s ease;
 
 }
 
